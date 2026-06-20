@@ -1,11 +1,11 @@
 # Web-Scraping-Without-Detection-A-Practical-Approach
 Web scraping is essential for analytics, price monitoring, competitive research, lead generation, and market intelligence. However, most modern websites actively block scraping attempts using sophisticated bot detection systems (Cloudflare, DataDome, Akamai, Imperva). These systems rely not on simple IP rate limits but on browser fingerprinting and behavioral analysis.
 # Key detection vectors:
-Canvas fingerprinting (rendering differences)
-WebGL vendor/renderer strings
-AudioContext processing fingerprints
-User agent + OS + screen resolution combinations
-TLS handshake parameters (JA3/JA4 fingerprints)
+- Canvas fingerprinting (rendering differences)
+- WebGL vendor/renderer strings
+- AudioContext processing fingerprints
+- User agent + OS + screen resolution combinations
+- TLS handshake parameters (JA3/JA4 fingerprints)
 Mouse movements, scroll patterns, keystroke timing
 Traditional scrapers (headless browsers like Puppeteer or Playwright in default mode) expose clear automation signals. Result: blocked requests, CAPTCHAs, honeypot pages, or legal threats.
 # The Solution: Antidetect Browsers
