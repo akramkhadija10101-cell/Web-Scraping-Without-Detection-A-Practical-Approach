@@ -9,7 +9,7 @@ TLS handshake parameters (JA3/JA4 fingerprints)
 Mouse movements, scroll patterns, keystroke timing
 Traditional scrapers (headless browsers like Puppeteer or Playwright in default mode) expose clear automation signals. Result: blocked requests, CAPTCHAs, honeypot pages, or legal threats.
 # The Solution: Antidetect Browsers
-Antidetect browsers allow scraping operations to mimic real human users by assigning each session a unique, credible fingerprint. Unlike standard browsers, they modify both visible and low-level parameters per profile.
+[Antidetect browsers](https://antidetect.org) allow scraping operations to mimic real human users by assigning each session a unique, credible fingerprint. Unlike standard browsers, they modify both visible and low-level parameters per profile.
 Core mechanism:
 [Anti-detect Browser] + [RotatingProxies] → [SessionIsolation] → [ReducedDetectionRate]
 Each scraping thread runs inside a fully emulated browser environment that looks identical to a genuine visitor’s device.
