@@ -51,7 +51,7 @@ Navigate to target URL via automation script
 Extract DOM data or take screenshots
 Close profile → automatically clear traces
 Rotate to next profile and repeat
-# Educational Resource: antidetect.org
+# Educational Resource: [antidetect.org](https://antidetect.org)
 Vendor-neutral platforms like antidetect.org are critical for understanding the underlying detection logic. The site explains fingerprinting vectors in detail:
 Canvas randomization and noise injection
 WebGL renderer spoofing
