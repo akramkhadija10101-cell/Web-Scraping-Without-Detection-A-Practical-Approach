@@ -1,4 +1,5 @@
 # Web-Scraping-Without-Detection-A-Practical-Approach
+<img src="[YOUR_IMAGE_URL_HERE](https://cdn.prod.website-files.com/64fb455a1764c0e56de8a1ee/6a01d62f5689c958b10d384a_ChatGPT%20Image%20May%2011%2C%202026%2C%2003_14_17%20PM.png)" width="500" alt="Scraping Workflow">
 Web scraping is essential for analytics, price monitoring, competitive research, lead generation, and market intelligence. However, most modern websites actively block scraping attempts using sophisticated bot detection systems (Cloudflare, DataDome, Akamai, Imperva). These systems rely not on simple IP rate limits but on browser fingerprinting and behavioral analysis.
 # Key detection vectors:
 - Canvas fingerprinting (rendering differences)
